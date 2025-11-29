@@ -21,8 +21,7 @@ return Application::configure(basePath: dirname(__DIR__))
             "api/*",
             "sanctum/csrf-cookie",
             "login",
-            "register",
-            "logout"
+            "register"
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
